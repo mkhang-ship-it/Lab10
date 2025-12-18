@@ -8,6 +8,7 @@ namespace Lab10
 {
     public class Book
     {
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Lab9_AdvancedSQL; Integrated Security=True; Encrypt=True; TrustServerCertificate=True;";
         public int BookID { get; set; }
         public string Title { get; set; }
         public string AuthorName { get; set; }

@@ -15,6 +15,8 @@ namespace Lab10
 {
     public partial class Form1 : Form
     {
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Lab9_AdvancedSQL; Integrated Security=True; Encrypt=False; TrustServerCertificate=True;";
+
         private BookDAL bookDAL = new BookDAL();
         private List<Book> bookList;
 

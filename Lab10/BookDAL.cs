@@ -9,7 +9,7 @@ namespace Lab10
 {
     public class BookDAL
     {
-        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Lab9_AdvancedSQL; Integrated Security=True; Encrypt=True; TrustServerCertificate=True;";
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Lab9_AdvancedSQL; Integrated Security=True; Encrypt=False; TrustServerCertificate=True;";
 
 
         // GET ALL BOOKS
